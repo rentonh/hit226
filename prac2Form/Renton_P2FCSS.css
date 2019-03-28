@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightblue;
+
+}
+
+.form {
+  padding: 10px 10px;
+  border: 2px solid black;
+  width: 600px;
+  background: white;
+
+
+}
+
+label {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+input[type=text], [type=number], [type=date]{
+  width: 150px;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: lightgrey;
+}
+
+hr {
+	width: 550px;
+  border: 2px solid black;
+  margin-left: 0px;
+}
+
+/* submit button */
+.registerbtn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
