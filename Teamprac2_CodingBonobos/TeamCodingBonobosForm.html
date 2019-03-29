@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Bonobos Form</title>
+    <link rel="stylesheet" type="text/css" href="TeamCodingBonobosCSS.css">
+  </head>
+  <body>
+    <form>
+      <div class='center'>
+        <h1>Quick Sign Up</h1>
+        <p>Please fill in this form to sign up</p>
+        <hr>
+
+        <!--Name-->
+        <label><b>Name</b></label> </br>
+        <input type="text" placeholder="First name" name="Firstname" required>
+        <input type="text" placeholder="Middle name(Optional)" name="Middlename">
+        <input type="text" placeholder="last name" name="lastname" required></br>
+
+        <!--Email-->
+        <label><b>Email</b></label> </br>
+        <input type="text" placeholder="Example@domain.com" name="email" required></br>
+
+        <!--Address-->
+        <label><b>Address</b></label></br>
+        <input type="text" placeholder="2 Example street, suburb" name="adress" required></br>
+        <label for="radio_buttons"><b>State:</b></label>
+        <input type="radio" class="radio" name="radio_button" value="radio_1" required> ACT
+        <input type="radio" class="radio" name="radio_button" value="radio_2" > NSW
+        <input type="radio" class="radio" name="radio_button" value="radio_3" > NT
+        <input type="radio" class="radio" name="radio_button" value="radio_4" > QLD
+        <input type="radio" class="radio" name="radio_button" value="radio_5" > VIC
+        <input type="radio" class="radio" name="radio_button" value="radio_6" > WA</br>
+        <input type="number" placeholder="Post Code(eg:0810)" name="postcode" required></br>
+
+        <!--Phone Number-->
+        <label><b>Phone Number</b></label> </br>
+        <input type="number" placeholder="Your phone number" name="phone_number" required></br>
+
+        <!--Date of Birth-->
+        <label><b>Date of Birth</b></label></br>
+        <input type="date" placeholder="dd/mm/yyyy" name="dob" required></br>
+
+        <!--other-->
+        <input type="checkbox" unchecked="unchecked" name="I am not a robot" required> I am not a robot</br>
+        By clicking Sign Up you agree to our <a href="">Terms & Conditions</a>.</br>
+
+        <!--submit-->
+        <button type="button"><b>Cancel</b></button>
+        <button type="button"><b>Sign Up</b></button>
+      </div>
+    </form>
+  </body>
+</html>
